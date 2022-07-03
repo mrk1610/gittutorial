@@ -1,8 +1,5 @@
 hiking.txt
 
-asfas
-asf
-as
-f
-sa
-sa
+*.log
+static/
+demo
