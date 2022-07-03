@@ -1,0 +1,47 @@
+commands to install
+sudo apt update
+sudo apt install apache2
+
+Adjusting the Firewall
+sudo ufw app list
+sudo ufw allow 'Apache'
+sudo ufw status
+sudo systemctl status apache2
+
+
+
+port change: sudo vi /etc/apache2/ports.conf
+vhost configuration : /etc/apache2/sites-available/000-default.conf
+log format ; /etc/apache2/apache2.conf
+
+Managing the Apache Process 
+sudo systemctl stop apache2
+sudo systemctl start apache2
+sudo systemctl restart apache2
+sudo systemctl reload apache2
+sudo systemctl disable apache2
+sudo systemctl enable apache2
+sudo systemctl restart apache2
+
+
+
+
+commands to uninstall apache2
+sudo apt remove apache2
+sudo apt purge apache2 : to remove completely (configuration files)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
